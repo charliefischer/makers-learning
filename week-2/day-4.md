@@ -20,8 +20,8 @@ I got to grips with some OOD concepts:
 - allows a class to use it's real dependency or a double
 - you can also inject and double classes
 - e.g. 
-``` car_double = double :car
-  car_class_double = double :car_class, new: card_double
+``` car_double = double :car ```
+  ``` car_class_double = double :car_class, new: card_double
   ```
 #### Forwarding & Polymorphism
 - methods can be forwarded on to other classes when a new class object is made  
