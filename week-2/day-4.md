@@ -22,7 +22,7 @@ I got to grips with some OOD concepts:
 - e.g. 
 ``` car_double = double :car ```
   ``` car_class_double = double :car_class, new: card_double
-  ```
+  ``
 #### Forwarding & Polymorphism
 - methods can be forwarded on to other classes when a new class object is made  
 
